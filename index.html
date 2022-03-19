@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-navbar sticky-top">
+      <div class="container justify-content-center">
+        <span class="navbar-brand mb-0 h1 fs-3">To Do App</span>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron bg-jumbotron">
+      <h1 class="display-5 text-center fw-bolder">To Do App</h1>
+      <p class="lead text-center fw-normal">To Do App adalah dimana kamu bisa menuliskan apa saja yang ingin kamu lakukan menjadi sebuah list yang bisa kamu liat lagi kapanpun kamu mau.</p>
+    </div>
+
+    <!-- form -->
+    <div class="row justify-content-center">
+      <div class="container w-75">
+        <form>
+            <input class="form-control form-manual" id="new_text" type="text" placeholder="Apa yang ingin kamu lakukan?" aria-label="default input example" />  
+            <button onclick="add()" type="button" class="btn btn-success float-end">Kirim <i class="bi bi-send"></i></button>          
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- List -->
+    <ul id="todo" class="mt-3 list-group list-group-numbered">
+
+    </ul>
+
+    <!-- My Javascript -->
+    <script src="script.js"></script>
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
