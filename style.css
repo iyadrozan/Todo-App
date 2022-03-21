@@ -3,14 +3,14 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-.bg-navbar {
-  background-color: rgb(255, 124, 63);
+  cursor: default;
 }
 
 .bg-jumbotron {
-  background-color: rgba(255, 124, 63, 0.568);
+  /* background-color: rgba(255, 124, 63, 0.856); */
+  background-image: url(https://wallpaperaccess.com/full/945200.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .jumbotron {
@@ -21,6 +21,7 @@
 .form-manual {
   margin-top: 5rem;
   margin-bottom: 1rem;
+  cursor: text;
 }
 
 .icn-dlt {
@@ -28,6 +29,7 @@
   color: white;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .icn-chk {
@@ -35,10 +37,11 @@
   color: white;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .li-txt {
-  cursor: pointer;
+  cursor: default;
 }
 
 .done {
