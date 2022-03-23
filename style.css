@@ -7,6 +7,7 @@
 }
 
 .bg-jumbotron {
+  /* background-color: rgba(255, 124, 63, 0.856); */
   background-image: url(https://wallpaperaccess.com/full/945200.jpg);
   background-size: cover;
   background-position: bottom;
@@ -24,23 +25,12 @@
 }
 
 .icn-dlt {
-  background-color: rgb(255, 52, 52);
-  color: white;
-  font-size: 16px;
-  border-radius: 5px;
+  color: rgb(199, 42, 42);
   cursor: pointer;
 }
 
-.icn-chk {
-  background-color: rgb(27, 207, 10);
-  color: white;
-  font-size: 16px;
-  border-radius: 5px;
+.txt {
   cursor: pointer;
-}
-
-.li-txt {
-  cursor: default;
 }
 
 .done {
